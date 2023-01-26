@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  margin: 0;
+  text-align: center;
+}
+/* Header */
+.parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  flex-wrap: wrap;
+  z-index: 1;
+}
+a {
+  margin: 20px;
+}
+.logo {
+  margin-left: 10px;
+  height: 50px;
+}
+/* Picture+text part */
+.para {
+  background-image: url(/Resources/img-mission-background.jpg);
+  height: 700px;
+  width: 100%;
+  position: relative;
+  top: 70px;
+  background-size: cover;
+  padding-top: 350px;
+  border-bottom: 1px solid seashell;
+}
+.text-2 {
+  padding: 25px;
+}
+/* Flex pictures */
+.image-container img {
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+}
+.image-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-shrink: 2;
+}
+
+.header {
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+/* Cologn part */
+.parent-main {
+  background-image: url(/Resources/img-locations-background.jpg);
+  height: 500px;
+  padding: 100px;
+  margin-top: 50px;
+}
+
+.parent-second {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: transparent;
+}
+.box {
+  margin: 40px;
+  width: 300px;
+  height: 300px;
+}
+span {
+  display: block;
+  margin: 50px;
+}
+
+.text-main {
+  background-color: transparent;
+}
+/* Footer part */
+.footer {
+  position: relative;
+  top: 15px;
+}
+.ending {
+  height: 200px;
+}
+#h2-header {
+  line-height: 70px;
+}
+h5 {
+  line-height: 50px;
+}
+.copyright {
+  text-align: left;
+  margin: 20px;
+}
